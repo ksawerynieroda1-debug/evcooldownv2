@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "evcooldown",
+  "version": "1.0.0",
+  "name": "Event Cooldowns",
+  "description": "Pokazuje czas do ponownego uzycia eventowek. Czasy ustawiasz w grze (klawisz K).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.evcooldown.EvCooldownClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
